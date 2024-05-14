@@ -1,0 +1,47 @@
+@import-normalize;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Roboto:wght@300;400&display=swap');
+
+:root {
+  --title-color: #182d3a;
+  --text-color: #485d6a;
+  --color-primary: #3dd368;
+  --color-secondary: #30a853;
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f8f8;
+  height: 100vh;
+  height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+#root {
+  width: 100%;
+  display: block;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-style: 32px;
+}
